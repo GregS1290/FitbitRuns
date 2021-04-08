@@ -1,9 +1,9 @@
 const runs = [
   {
-    startDate:'2021-03-08';
+    startDate: '2021-03-08',
     distance: 3.5034,
     duration: 1201000,
-    calories: 250
+    calories: 250,
   },
   {
     startDate: '2021-03-10',
@@ -21,8 +21,8 @@ const runs = [
     startDate: '2021-03-13',
     distance: 1.75,
     duration: 60600,
-    calories: 99
-  }
+    calories: 99,
+  },
 ];
 
 module.exports = runs;

@@ -9,16 +9,17 @@ const Nav = styled.nav`
   justify-content: space-around;
   align-items: center;
   grid-area: 2 / 1 / span 7 / span 1;
-  border: 5px solid black;
+  border: 2px solid black;
+  border-radius: 5px;
 `;
 
-const activeClassName = 'nav-item-active';
-
-const StyledLink = styled(NavLink).attrs({ activeClassName })`
+const StyledLink = styled(NavLink)`
   text-decoration: none;
-  font-size: 20px;
-  &.${activeClassName} {
-    color: #cebcb6;
+  color: #70798c;
+
+  &:hover {
+    color: #1c1f33;
+    transition: color 250ms linear 250ms;
   }
 `;
 

@@ -8,7 +8,7 @@ const accessToken =
 const userId = '98XWQ9';
 
 router.get('/', async (req, res, next) => {
-  let date = '2021-04-04';
+  let date = '2021-04-06';
   let { data } = await axios.get(
     `https://api.fitbit.com/1/user/-/activities/date/${date}.json`,
     {

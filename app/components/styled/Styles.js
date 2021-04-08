@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(6, 300px);
-  grid-template-rows: repeat(8, 110px);
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: repeat(8, 1fr);
   grid-gap: 5px;
 `;
 
