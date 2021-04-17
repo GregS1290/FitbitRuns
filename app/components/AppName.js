@@ -16,3 +16,5 @@ const AppName = () => {
 };
 
 export default AppName;
+
+//store the token as a cookie

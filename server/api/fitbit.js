@@ -2,8 +2,7 @@ const router = require('express').Router();
 const axios = require('axios');
 // const {User, Run} = require('../db/models')
 
-const accessToken =
-  'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMkM1NFYiLCJzdWIiOiI5OFhXUTkiLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJ3aHIgd251dCB3cHJvIHdzbGUgd3dlaSB3c29jIHdhY3Qgd3NldCB3bG9jIiwiZXhwIjoxNjQ4OTk4NjM0LCJpYXQiOjE2MTc0NjQzNDN9.pvWnoA-5fN3DDfJyufA33q0TDSiagTy7WhbTQ7HMRds';
+const accessToken = '';
 
 const userId = '98XWQ9';
 

@@ -16,7 +16,7 @@ const data = [
   { name: 'Group A', value: 400 },
   { name: 'Group B', value: 300 },
 ];
-const COLORS = ['#ED7D3A', '#0D1B2A'];
+const COLORS = ['#1C1F33', '#ED7D3A'];
 
 class VsGoal extends PureComponent {
   render() {
